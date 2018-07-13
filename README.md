@@ -17,12 +17,12 @@ For Retraining
  --output_labels : give the name of the file in which name of the classes to be saved ( you need to provide this at classification time, keep it "retrained_labels.txt" to avoid any change in CheckClassify)
  --image_dir : provide the image directory in which training images are saved (keep each class in seperate folder with class name[label] as folder name)
 
->> python retrain.py --bottleneck_dir=./bottlenecks --how_many_training_steps 4000 --model_dir=./Model --output_graph=./retrained_graph.pb --output_labels=./retrained_labels.txt --image_dir ./Train_Images
+> python retrain.py --bottleneck_dir=./bottlenecks --how_many_training_steps 4000 --model_dir=./Model --output_graph=./retrained_graph.pb --output_labels=./retrained_labels.txt --image_dir ./Train_Images
 
 For Testing / Classification
 
 1) for single image 
->> python classifier.py <address of image>
+> python classifier.py <address of image>
 
 2) For many images
  
@@ -38,7 +38,7 @@ For Testing / Classification
  
  Keep the images needed for Test in "Test_Images" folder in same directory as CheckClassify.py or change in "CheckClassify.py" file root_dir variable
  
- >> python CheckClassify.py
+ > python CheckClassify.py
  
  Output : Inside test directory folders with class names are made and images predicted in the respective class are copied.
  
