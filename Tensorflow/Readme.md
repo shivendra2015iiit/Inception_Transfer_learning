@@ -2,7 +2,7 @@ This Project uses knowledge gained by imagenet weights and transfer learning fro
 This work also demonstrate how you can used pretrained network and transfer it's learning to get good results with even very less training data
 
 
-GitHub link : 
+GitHub link : https://github.com/shivendra2015iiit/Inception_Transfer_learning/
 
 
 Instructions:
