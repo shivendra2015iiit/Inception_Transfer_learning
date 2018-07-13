@@ -7,7 +7,7 @@ GitHub link :
 
 Instructions:
 
-Download the ImageNet graph for tensorflow from " " and keep in Model folder if you do not have it already KEEP THE NAME OF GRAPH AS "classify_image_graph_def.pb"
+Download the ImageNet graph for tensorflow from "https://drive.google.com/open?id=1nz0hs_hwexv98OWbB80M0e67IVeBApy5" and keep in Model folder if you do not have it already KEEP THE NAME OF GRAPH AS "classify_image_graph_def.pb"
 
 
 Keep atleast 10 images in Each class for training. For best results give resized images of 250 * 250 or 512 * 512 
